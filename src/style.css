@@ -1,7 +1,7 @@
 :root { font-family: "Courier New", Courier, monospace; color: #292725; background: #332c20; }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; min-height: 100vh; overflow-x: hidden; }
-body::before, body::after { content: ""; position: fixed; inset: 0; z-index: -2; background: linear-gradient(rgba(23, 16, 9, .35), rgba(23, 16, 9, .35)), url("../codex-clipboard-dbe52f4e-7fe8-4b45-9342-ae59075ce2e9.png") center / cover no-repeat; }
+body::before, body::after { content: ""; position: fixed; inset: 0; z-index: -2; background: linear-gradient(rgba(23, 16, 9, .35), rgba(23, 16, 9, .35)), url("https://raw.githubusercontent.com/blue-ship-it/love-letter/main/codex-clipboard-dbe52f4e-7fe8-4b45-9342-ae59075ce2e9.png") center / cover no-repeat; }
 body::after { z-index: -1; opacity: .32; background: linear-gradient(125deg, rgba(112, 66, 34, .22), rgba(5, 9, 7, .45)); mix-blend-mode: multiply; }
 .scene { min-height: 100vh; padding: 26px 16px 130px; display: grid; place-items: start center; }
 .letter { position: relative; width: min(100%, 620px); min-height: calc(100vh - 52px); padding: 72px 38px 58px; background: rgba(249, 245, 236, .95); background-image: radial-gradient(circle at 20% 10%, rgba(180,145,104,.10), transparent 35%), repeating-linear-gradient(0deg, rgba(109,86,61,.025) 0 1px, transparent 1px 4px); box-shadow: 0 2px 15px rgba(24,40,39,.35); }
