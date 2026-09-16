@@ -1,7 +1,7 @@
 // Change these three values when you add your song as song.mp3 in the repo root.
 const song = {
-  title: "A song for us",
-  artist: "Dishi & Hrishit",
+  title: "Do you wanna guess what this song is?",
+  artist: "The Smiths",
   file: "song.mp3"
 };
 
