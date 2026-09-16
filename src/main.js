@@ -1,10 +1,8 @@
-import "./style.css";
-
-// Change these three values when you add your song to public/song.mp3.
+// Change these three values when you add your song as song.mp3 in the repo root.
 const song = {
   title: "A song for us",
   artist: "Dishi & Hrishit",
-  file: "/song.mp3"
+  file: "song.mp3"
 };
 
 const letter = [
